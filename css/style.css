@@ -11,6 +11,21 @@ p {
   top: 50%;
   transform: translate(-50%,-50%);
 }
-.col-1, .col-12, .col-8, .col-2 {
+.col-1,
+.col-12,
+.col-8,
+.col-2,
+.col-6,
+.container {
   background-color: pink;
+}
+
+.bottom {
+  padding: 5px;
+}
+ .nested {
+  border: 1px solid white;
+  background-color: #F07F80;
+  max-width: 100%;
+  max-height: 100%;
 }
