@@ -1,7 +1,15 @@
 
-
-
 [class*=col-] {
   border: 1px solid black;
+  position: relative;
+}
 
+p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.col-1 {
+  background-color: pink;
 }
