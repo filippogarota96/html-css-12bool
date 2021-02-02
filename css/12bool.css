@@ -8,12 +8,22 @@
 
 /* framework */
 
+.debug .container {
+  background-color: pink;
+  height: 200px;
+  background-color: pink;
+}
 .container {
   margin: 0 auto;
-  width: 1170px;
+  max-width: 1170px;
+
 }
 
-.clearfix {
+.debug [class*=col-] {
+  border: 1px solid #000;
+  height: 100%;
+}
+.clearfix  {
   content: '';
   display: block;
   clear: both;
@@ -21,7 +31,7 @@
 
 [class*=col-] {
   float: left;
-  height: 200px
+
 }
 
 .col-1 {

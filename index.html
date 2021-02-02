@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>12 Bool Grid</title>
 </head>
-<body>
+<body class="debug">
   <header class="container clearfix">
     <div class="col-1">
       <p>1 col</p>
@@ -88,26 +88,23 @@
   </main>
 
   <!-- quinto container -->
-  <footer class="container clearfix">
-    <div class="col-6 bottom">
-      <div class="col-2 nested">
-        <p>Nested col 2</p>
+  <footer >
+    <div class="container clearfix">
+      <div class="col-6 bottom ">
+        <div class="container clearfix">
+          <div class="col-2 nested"><p>Nested col 2</p></div>
+          <div class="col-2 nested"><p>Nested col 2</p></div>
+          <div class="col-8 nested"><p>Nested col 8</p></div>
+        </div>
       </div>
-      <div class="col-2 nested">
-        <p>Nested col-2</p>
-      </div>
-      <div class="col-8 nested">
-        <p>Nested col-8</p>
-      </div>
-    </div>
-    <div class="col-6 bottom">
-      <div class="col-6 nested">
-        <p>Nested col 6</p>
-      </div>
-      <div class="col-6 nested">
-        <p>Nested col 6</p>
+      <div class="col-6 bottom ">
+        <div class="container clearfix">
+          <div class="col-6 nested"><p>Nested col 6</p></div>
+          <div class="col-6 nested"><p>Nested col 6</p></div>
+        </div>
       </div>
     </div>
+
   </footer>
 </body>
 </html>
